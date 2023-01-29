@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="-12dp"
+    tools:layout_editor_absoluteY="20dp">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="339dp"
+        android:layout_height="616dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="753dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/imageButton0"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="85dp"
+                    android:layout_height="84dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.101"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.109"
+                    app:srcCompat="@drawable/animacionboton1"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Encéfalo"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.101"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.255"
+                    app:srcCompat="@drawable/animacionboton5"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Lóbulo Occipital"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.101"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.401"
+                    app:srcCompat="@drawable/animacionboton9"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Meningues Duramadre"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton12"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.101"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.547"
+                    app:srcCompat="@drawable/animacionboton13"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Bulbo Raquídeo"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton16"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.101"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.692"
+                    app:srcCompat="@drawable/animacionboton17"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Tallo Cerebral"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton20"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.101"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.838"
+                    app:srcCompat="@drawable/animacionboton21"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Área                             de Broca"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="83dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.361"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.109"
+                    app:srcCompat="@drawable/animacionboton2"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Cerebelo"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.361"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.255"
+                    app:srcCompat="@drawable/animacionboton6"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Lóbulo      Frontal"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton9"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.361"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.401"
+                    app:srcCompat="@drawable/animacionboton10"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Meningues Piamadre"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton13"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.361"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.547"
+                    app:srcCompat="@drawable/animacionboton14"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Hipófisis"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton17"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.361"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.692"
+                    app:srcCompat="@drawable/animacionboton18"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Fornix"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton21"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.361"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.838"
+                    app:srcCompat="@drawable/animacionboton22"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Área de Wernicke"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="85dp"
+                    android:layout_height="84dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.622"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.109"
+                    app:srcCompat="@drawable/animacionboton3"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Lóbulo Temporal"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.622"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.255"
+                    app:srcCompat="@drawable/animacionboton7"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Tálamo"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton10"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="83dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.622"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.401"
+                    app:srcCompat="@drawable/animacionboton11"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Meningues Aracnoides"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton14"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.622"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.547"
+                    app:srcCompat="@drawable/animacionboton15"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Sistema Límbico"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton18"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.622"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.692"
+                    app:srcCompat="@drawable/animacionboton19"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Circunvolución Cingulada"
+                    android:textAlignment="center"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="87dp"
+                android:layout_height="605dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="85dp"
+                    android:layout_height="84dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.883"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.109"
+                    app:srcCompat="@drawable/animacionboton4"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Lóbulo Pariteal"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.883"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.255"
+                    app:srcCompat="@drawable/animacionboton8"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Hipotálamo"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton11"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="83dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.883"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.401"
+                    app:srcCompat="@drawable/animacionboton12"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Liquido Céfalorraquídeo"
+                    android:textAlignment="center"
+                    android:textSize="11.2sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton15"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.883"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.547"
+                    app:srcCompat="@drawable/animacionboton16"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Amígdala Cerebral"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton19"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="play"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.883"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.692"
+                    app:srcCompat="@drawable/animacionboton20"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/wendy_one"
+                    android:shadowColor="#FF0000"
+                    android:text="Cuerpo     Calloso"
+                    android:textAlignment="center"
+                    android:textSize="11.5sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
