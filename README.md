@@ -8,8 +8,8 @@ utilizar la salida de audio para realizar la lectura del nombre de a parte del c
 ## APP
 # PANELES DE CARGA E INICIO
 
-<div>
-<img style='padding:2px' src="/ImagesReadme/Carga.jpg" alt="PanelCarga" width="300px">
-<img src="/ImagesReadme/Panel1.jpg" alt="PanelCarga" width="300px"> 
-<img src="/ImagesReadme/Panel2.jpg" alt="PanelCarga" width="300px"> 
+<div style='padding:2px'>
+<img  src="/ImagesReadme/Carga.jpg" alt="PanelCarga" width="330px">
+<img src="/ImagesReadme/Panel1.jpg" alt="PanelCarga" width="330px"> 
+<img src="/ImagesReadme/Panel2.jpg" alt="PanelCarga" width="330px"> 
 </div>
