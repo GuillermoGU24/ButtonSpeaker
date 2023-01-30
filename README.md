@@ -6,4 +6,4 @@ utilizar la salida de audio para realizar la lectura del nombre de a parte del c
 [BUTTON-SPEAKER](https://drive.google.com/file/d/1H8f5m8fhtN0oYzn9PWsqaMNfvfJMiP71/view?usp=share_link) Link de descarga de la apk.
 
 ## APP
-<img src="/ImagesReadme/Carga.jpg" alt="Pantalla de Carga" width="50px">
+<img src="/ImagesReadme/Carga.jpg" alt="Pantalla de Carga" width="100px">
