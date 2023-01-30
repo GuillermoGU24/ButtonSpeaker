@@ -5,4 +5,4 @@ utilizar la salida de audio para realizar la lectura del nombre de a parte del c
 
 [BUTTON-SPEAKER](https://drive.google.com/file/d/1H8f5m8fhtN0oYzn9PWsqaMNfvfJMiP71/view?usp=share_link) Link de descarga de la apk.
 
-![Imagen de Carga](https://drive.google.com/file/d/1HKy2PCAf3dCVePCS8-Xw0pSwR610K_JR/view?usp=share_link)
+<img src="[https://pbs.twimg.com/media/EiAuAS8VoAA1-4T?format=jpg&name=large](https://drive.google.com/file/d/1HKy2PCAf3dCVePCS8-Xw0pSwR610K_JR/view?usp=share_link)" alt="JuveR" width="300px">
