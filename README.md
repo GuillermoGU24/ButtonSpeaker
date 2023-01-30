@@ -9,7 +9,7 @@ utilizar la salida de audio para realizar la lectura del nombre de a parte del c
 # PANELES DE CARGA E INICIO
 <div>
   
-<img src="/ImagesReadme/Carga.jpg" alt="PanelCarga" width="350px">
-<img src="/ImagesReadme/Panel1.jpg" alt="PanelCarga" width="350px"> 
-<img src="/ImagesReadme/Panel2.jpg" alt="PanelCarga" width="350px"> 
+<img src="/ImagesReadme/Carga.jpg" alt="PanelCarga" width="250px">
+<img src="/ImagesReadme/Panel1.jpg" alt="PanelCarga" width="250px"> 
+<img src="/ImagesReadme/Panel2.jpg" alt="PanelCarga" width="250px"> 
 </div>
