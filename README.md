@@ -9,7 +9,7 @@ utilizar la salida de audio para realizar la lectura del nombre de a parte del c
 # Paneles de Carga e Inicio
 
 <div >
-<img src="/ImagesReadme/Carga.jpg" alt="PanelCarga" width="273px">
+<img title="Texto flotante" src="/ImagesReadme/Carga.jpg" alt="PanelCarga" width="273px">
 <img src="/ImagesReadme/Panel1.jpg" alt="Inicio" width="273px"> 
 <img src="/ImagesReadme/Panel2.jpg" alt="Botones" width="273px"> 
 </div>
