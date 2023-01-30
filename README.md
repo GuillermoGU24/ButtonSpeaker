@@ -10,6 +10,10 @@ utilizar la salida de audio para realizar la lectura del nombre de a parte del c
 
 <div >
 <img src="/ImagesReadme/Carga.jpg" alt="PanelCarga" width="333px">
-<img src="/ImagesReadme/Panel1.jpg" alt="PanelCarga" width="333px"> 
-<img src="/ImagesReadme/Panel2.jpg" alt="PanelCarga" width="333px"> 
+<img src="/ImagesReadme/Panel1.jpg" alt="Inicio" width="333px"> 
+<img src="/ImagesReadme/Panel2.jpg" alt="Botones" width="333px"> 
+</div>
+<div>
+  <img src="/ImagesReadme/Panel2R.jpg" alt="InicioRotado" width="333px">
+<img src="/ImagesReadme/Panel1R.jpg" alt="BotonRotado" width="333px"> 
 </div>
