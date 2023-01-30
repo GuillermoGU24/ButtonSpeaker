@@ -9,14 +9,14 @@ utilizar la salida de audio para realizar la lectura del nombre de a parte del c
 # Paneles de Carga e Inicio
 
 <div >
-<img src="/ImagesReadme/Carga.jpg" alt="PanelCarga" width="300px">
-<img src="/ImagesReadme/Panel1.jpg" alt="Inicio" width="300px"> 
-<img src="/ImagesReadme/Panel2.jpg" alt="Botones" width="300px"> 
+<img src="/ImagesReadme/Carga.jpg" alt="PanelCarga" width="330px">
+<img src="/ImagesReadme/Panel1.jpg" alt="Inicio" width="330px"> 
+<img src="/ImagesReadme/Panel2.jpg" alt="Botones" width="330px"> 
 </div>
 
 # Paneles de Inicio Rotacion Horizontal
 
 <div>
-  <img src="/ImagesReadme/Panel2R.jpg" alt="InicioRotado" width="400x">
-  <img src="/ImagesReadme/panelR.jpg" alt="BotonRotado" width="400px"> 
+  <img src="/ImagesReadme/Panel2R.jpg" alt="InicioRotado" width="450x">
+  <img src="/ImagesReadme/panelR.jpg" alt="BotonRotado" width="450px"> 
 </div>
