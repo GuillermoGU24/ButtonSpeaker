@@ -8,27 +8,35 @@ utilizar la salida de audio para realizar la lectura del nombre de a parte del c
 ## APP
 ### PANEL DE CARGA
 <div>
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
+    <div class="carrusel">
+        <div class="product" id="product_0">
+            <img src="/ImagesReadme/Panel1.jpg" width="195" height="100" />
+            <h5>Panralla de Carga</h5>            
+        </div>
+        <div class="product" id="product_1">
+            <img src="gallery/02.jpg" width="195" height="100" />
+            <h5>Lorem ipsum 2</h5>
+            <p>100.00 €</p>
+        </div>
+        <div class="product" id="product_2">
+            <img src="gallery/03.jpg" width="195" height="100" />
+            <h5>Lorem ipsum 3</h5>
+            <p>250.00 €</p>
+        </div>
+        <div class="product" id="product_3">
+            <img src="gallery/01.jpg" width="195" height="100" />
+            <h5>Lorem ipsum 4</h5>
+            <p>75.00 €</p>
+        </div>
+        <div class="product" id="product_4">
+            <img src="gallery/02.jpg" width="195" height="100" />
+            <h5>Lorem ipsum 5</h5>
+            <p>65.00 €</p>
+        </div>
+        <div class="product" id="product_5">
+            <img src="gallery/03.jpg" width="195" height="100" />
+            <h5>Lorem ipsum 6</h5>
+            <p>40.00 €</p>
+        </div>
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
-  
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
