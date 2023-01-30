@@ -13,7 +13,8 @@ utilizar la salida de audio para realizar la lectura del nombre de a parte del c
 <img src="/ImagesReadme/Panel1.jpg" alt="Inicio" width="333px"> 
 <img src="/ImagesReadme/Panel2.jpg" alt="Botones" width="333px"> 
 </div>
+# Paneles de Inicio Rotacion Horizontal
 <div>
-  <img src="/ImagesReadme/Panel2R.jpg" alt="InicioRotado" width="333px">
-<img src="/ImagesReadme/panelR.jpg" alt="BotonRotado" width="333px"> 
+  <img src="/ImagesReadme/Panel2R.jpg" alt="InicioRotado" width="490px">
+  <img src="/ImagesReadme/panelR.jpg" alt="BotonRotado" width="490px"> 
 </div>
