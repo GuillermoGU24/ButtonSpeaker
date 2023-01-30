@@ -4,5 +4,7 @@ botones los cuales muestran frames que ilustran las diferentes partes del cerebr
 utilizar la salida de audio para realizar la lectura del nombre de a parte del cerebro. 
 
 [BUTTON-SPEAKER](https://drive.google.com/file/d/1H8f5m8fhtN0oYzn9PWsqaMNfvfJMiP71/view?usp=share_link) Link de descarga de la apk.
-<image src="https://drive.google.com/file/d/1HKy2PCAf3dCVePCS8-Xw0pSwR610K_JR/view?usp=sharing" alt="Descripción de la imagen">
+
+![Universidades](https://drive.google.com/file/d/1HTqh3eL-8YPncybURdDb4ySkGBQuAh8i/view)
+
 
