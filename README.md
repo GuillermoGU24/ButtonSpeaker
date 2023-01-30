@@ -6,9 +6,9 @@ utilizar la salida de audio para realizar la lectura del nombre de a parte del c
 [BUTTON-SPEAKER](https://drive.google.com/file/d/1H8f5m8fhtN0oYzn9PWsqaMNfvfJMiP71/view?usp=share_link) Link de descarga de la apk.
 
 ## APP
-# PANELES DE CARGA E INICIO
+# Paneles de Carga e Inicio
 
-<div style='padding:2px'>
+<div style='padding:5px'>
 <img  src="/ImagesReadme/Carga.jpg" alt="PanelCarga" width="330px">
 <img src="/ImagesReadme/Panel1.jpg" alt="PanelCarga" width="330px"> 
 <img src="/ImagesReadme/Panel2.jpg" alt="PanelCarga" width="330px"> 
