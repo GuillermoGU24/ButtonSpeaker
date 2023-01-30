@@ -17,6 +17,6 @@ utilizar la salida de audio para realizar la lectura del nombre de a parte del c
 # Paneles de Inicio Rotacion Horizontal
 
 <div>
-  <img src="/ImagesReadme/Panel2R.jpg" alt="InicioRotado" width="490px">
-  <img src="/ImagesReadme/panelR.jpg" alt="BotonRotado" width="490px"> 
+  <img src="/ImagesReadme/Panel2R.jpg" alt="InicioRotado" width="500x">
+  <img src="/ImagesReadme/panelR.jpg" alt="BotonRotado" width="500px"> 
 </div>
